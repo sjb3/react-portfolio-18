@@ -10,84 +10,85 @@ import { Adiv, Bdiv } from './styled/App.style';
 class App extends Component {
   render() {
     return (
-      <div style={{ height: '300px', position: 'relative' }}>
-        <Layout fixedHeader>
+      <div className="demo-big-content">
+        <Layout>
           <Header
-            style={{ backgroundColor: 'transparent' }}
             className="header-color"
             title={(
-              <span>
-                <strong>
+              <Link style={{ textDecoration: 'none', color: 'white' }} to="/">
+                <Adiv>
 Portfolio
-                </strong>
-                <br />
-                <a style={{ fontSize: '0.6em', color: 'white', fontStyle: 'italic' }} href="https://tleunen.github.io/react-mdl/">
-powered by Material Design
-                </a>
-              </span>
+                </Adiv>
+              </Link>
 )}
+            scroll
           >
+            <a style={{ fontSize: '1em', color: 'black', fontStyle: 'italic' }} href="https://tleunen.github.io/react-mdl/">
+            powered by Material Design
+            </a>
             <Navigation>
               <Link to="/resume">
                 <Adiv>
-
 Resume
                 </Adiv>
-
               </Link>
               <Link to="/aboutme">
                 <Adiv>
-     AboutMe
+About Me
                 </Adiv>
               </Link>
               <Link to="/projects">
                 <Adiv>
-     Projects
-
-
+Projects
                 </Adiv>
               </Link>
-              <Link to="/contacts">
+              <Link to="/contact">
                 <Adiv>
-     Contacts
-
-
+Contact
                 </Adiv>
               </Link>
             </Navigation>
           </Header>
-          <Drawer title="Site Map">
+          <Drawer title={(
+            <Link style={{ textDecoration: 'none', color: 'black' }} to="/">
+              <Bdiv>
+Portfolio
+              </Bdiv>
+            </Link>
+)}
+          >
             <Navigation>
               <Link to="/resume">
                 <Bdiv>
-     Resume
-
+Resume
                 </Bdiv>
               </Link>
               <Link to="/aboutme">
                 <Bdiv>
-     AboutMe
-
+About Me
                 </Bdiv>
               </Link>
               <Link to="/projects">
                 <Bdiv>
-     Projects
-
+Projects
                 </Bdiv>
               </Link>
-              <Link to="/contacts">
+              <Link to="/contact">
                 <Bdiv>
-     Contacts
-
+Contact
                 </Bdiv>
               </Link>
             </Navigation>
           </Drawer>
-          <Content />
-          <Main />
+
+          <Content>
+            <div className="page-content" />
+            <Main />
+          </Content>
         </Layout>
+
       </div>
+
     );
   }
 }

@@ -13,6 +13,8 @@ export const Adiv = styled.div`
   color: white;
   &:hover {
     color: yellow;
+    font-style: italic;
+
   }
   &:active {
     color: red;
