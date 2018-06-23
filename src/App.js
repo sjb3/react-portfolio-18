@@ -9,6 +9,9 @@ import { Adiv, Bdiv } from './styled/App.style';
 
 class App extends Component {
   render() {
+    // const date = Date.now();
+    // console.log(date);
+
     return (
       <div className="demo-big-content">
         <Layout>
@@ -23,9 +26,7 @@ Portfolio
 )}
             scroll
           >
-            <a style={{ fontSize: '1em', color: 'black', fontStyle: 'italic' }} href="https://tleunen.github.io/react-mdl/">
-            powered by Material Design
-            </a>
+
             <Navigation>
               <Link to="/resume">
                 <Adiv>
@@ -85,6 +86,13 @@ Contact
             <div className="page-content" />
             <Main />
           </Content>
+
+          <footer className="app-footer">
+            <hr />
+            <a style={{ fontSize: '1em', color: 'black', fontStyle: 'italic' }} href="https://tleunen.github.io/react-mdl/">
+            powered by Material Design Lite
+            </a>
+          </footer>
         </Layout>
 
       </div>

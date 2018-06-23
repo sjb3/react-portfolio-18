@@ -12,9 +12,10 @@ export const H2 = styled.div`
 export const Adiv = styled.div`
   color: white;
   &:hover {
-    color: yellow;
+    color: greenyellow;
+    font-size: 1em;
     font-style: italic;
-
+    font-stretch: italic;
   }
   &:active {
     color: red;
@@ -24,7 +25,7 @@ export const Adiv = styled.div`
 export const Bdiv = styled.div`
   color: grey;
   &:hover {
-    color: yellow;
+    color: purple;
     font-style: italic;
 
   }
