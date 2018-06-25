@@ -11,6 +11,7 @@ export const H2 = styled.div`
 
 export const Adiv = styled.div`
   color: white;
+  /* font-family: 'Shrikhand'; */
   &:hover {
     color: greenyellow;
     font-size: 1em;
