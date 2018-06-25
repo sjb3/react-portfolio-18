@@ -43,9 +43,9 @@ About Me
 Projects
                 </Adiv>
               </Link>
-              <Link to="/contact">
+              <Link to="/contacts">
                 <Adiv>
-Contact
+Contacts
                 </Adiv>
               </Link>
             </Navigation>
@@ -74,9 +74,9 @@ About Me
 Projects
                 </Bdiv>
               </Link>
-              <Link to="/contact">
+              <Link to="/contacts">
                 <Bdiv>
-Contact
+Contacts
                 </Bdiv>
               </Link>
             </Navigation>
