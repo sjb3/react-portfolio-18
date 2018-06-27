@@ -20,7 +20,9 @@ class App extends Component {
             title={(
               <Link style={{ textDecoration: 'none', color: 'white' }} to="/">
                 <Adiv>
+                  <h4 style={{ fontFamily: 'Shrikhand' }}>
 Portfolio
+                  </h4>
                 </Adiv>
               </Link>
 )}
