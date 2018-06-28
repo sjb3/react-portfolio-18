@@ -74,7 +74,7 @@ HTML5/CSS3 || JavaScript || ReactJS || nodeJS || Express || MongoDB || graphQL
                     </DialogTitle>
                     <DialogContent style={{ fontSize: '0.5em', fontFamily: 'Open Sans Condensed' }}>
                       <p>
-Seattle/Bellevue, WA
+Seattle/Bellevue
                       </p>
                     </DialogContent>
                     <DialogActions>

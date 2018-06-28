@@ -91,7 +91,7 @@ class Projects extends Component {
             'url(https://cdn-images-1.medium.com/max/1200/1*RCeGDSIqqW68bS5kYucTvA.png) center / cover',
           }}
           >
-            React Movie Search
+            GraphQL + MERN Playlist
           </CardTitle>
           <CardText>
             GraphQL(+ React) study with front and backend
