@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
 import Education from './Education';
 import Experiences from './Experiences';
+import Skills from './Skills';
 
 class Resume extends Component {
   render() {
@@ -58,9 +59,44 @@ Hacker
               jobDescription="Help students learn javaScript, HTML5 and CSS3"
             />
             <h4 style={{ textAlign: 'center' }}>
+            Skill Sets
+            </h4>
+            <hr style={{ borderTop: '1px solid brown' }} />
+            <Skills
+              skills="HTML5/CSS3"
+              progress={100}
+            />
+            <Skills
+              skills="javascript"
+              progress={90}
+            />
+            <Skills
+              skills="reactJS"
+              progress={90}
+            />
+            <Skills
+              skills="nodeJS"
+              progress={80}
+            />
+            <Skills
+              skills="mongoDB"
+              progress={90}
+            />
+            <Skills
+              skills="graphQL"
+              progress={80}
+            />
+            <h4 style={{ textAlign: 'center' }}>
               Education
             </h4>
             <hr style={{ borderTop: '1px solid brown' }} />
+            <Education
+              startYear={2018}
+              endYear="progress"
+              schoolName="North Seattle College | Seattle, WA"
+              schoolDescription="Bachelor’s of Sciences,
+              Major in Application Development"
+            />
             <Education
               startYear={2015}
               endYear={2016}
