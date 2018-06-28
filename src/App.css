@@ -141,6 +141,36 @@ font-family: 'Open Sans Condensed', sans-serif; */
   margin: auto;
 }
 
+/* Resume Component CSS */
+.resume-left-col {
+  background: white;
+  text-align: center;
+  /* color: white; */
+}
+.resume-left-col h2 {
+  padding-top: 2em;
+  font-size: 3.5em;
+  font-style: italic;
+  font-family: 'Cookie', cursive;
+}
+h2:hover {
+  color: gray;
+}
+
+.resume-left-col h4 {
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+h4:hover {
+  color: brown;
+}
+
+.resume-right-col {
+  background: white;
+  /* background-color: rgba(100,59,26, 0.5); */
+  color: black;
+  padding-left: 3em;
+}
+
 .App {
   text-align: center;
   font-size: 3em;
