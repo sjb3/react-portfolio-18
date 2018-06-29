@@ -67,11 +67,11 @@ Hacker
               progress={100}
             />
             <Skills
-              skills="javascript"
+              skills="javaScript"
               progress={90}
             />
             <Skills
-              skills="reactJS"
+              skills="ReactJS"
               progress={90}
             />
             <Skills
@@ -79,11 +79,11 @@ Hacker
               progress={80}
             />
             <Skills
-              skills="mongoDB"
+              skills="MongoDB"
               progress={90}
             />
             <Skills
-              skills="graphQL"
+              skills="graphQL/Apollo"
               progress={80}
             />
             <h4 style={{ textAlign: 'center' }}>
@@ -95,7 +95,7 @@ Hacker
               endYear="progress"
               schoolName="North Seattle College | Seattle, WA"
               schoolDescription="Bachelor’s of Sciences,
-              Major in Application Development"
+              Application Development"
             />
             <Education
               startYear={2015}

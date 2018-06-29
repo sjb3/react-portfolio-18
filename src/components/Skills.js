@@ -6,12 +6,13 @@ export default class Skills extends Component {
     return (
       <Grid>
         <Cell col={12}>
-Skills
           <div style={{ display: 'flex' }}>
             {this.props.skills}
             <ProgressBar
+
               style={{ margin: 'auto', width: '75%' }}
               progress={this.props.progress}
+
             />
           </div>
         </Cell>
