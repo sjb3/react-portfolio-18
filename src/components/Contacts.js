@@ -8,14 +8,14 @@ class Contacts extends Component {
   constructor(props) {
     super(props);
     this.state = {};
-    this.handleOpenDialog = this.handleOpenDialog.bind(this);
-    this.handleCloseDialog = this.handleCloseDialog.bind(this);
-
-    this.handleOpenDialog2 = this.handleOpenDialog2.bind(this);
-    this.handleCloseDialog2 = this.handleCloseDialog2.bind(this);
+    // this.handleOpenDialog = this.handleOpenDialog.bind(this);
+    // this.handleCloseDialog = this.handleCloseDialog.bind(this);
+    //
+    // this.handleOpenDialog2 = this.handleOpenDialog2.bind(this);
+    // this.handleCloseDialog2 = this.handleCloseDialog2.bind(this);
   }
 
-  handleOpenDialog() {
+  handleOpenDialog = () => {
     console.log('hello');
 
     this.setState({
@@ -23,20 +23,20 @@ class Contacts extends Component {
     });
   }
 
-  handleCloseDialog() {
+  handleCloseDialog = () => {
     this.setState({
       openDialog: false,
     });
   }
 
-  handleOpenDialog2() {
+  handleOpenDialog2 = () => {
     console.log('hello');
     this.setState({
       openDialog2: true,
     });
   }
 
-  handleCloseDialog2() {
+  handleCloseDialog2 = () => {
     this.setState({
       openDialog2: false,
     });
