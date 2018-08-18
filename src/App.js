@@ -35,9 +35,9 @@ Portfolio
 Resume
                 </Adiv>
               </Link>
-              <Link to="/aboutme">
+              <Link to="/moviesearch">
                 <Adiv>
-About Me
+Movie Search
                 </Adiv>
               </Link>
               <Link to="/projects">
@@ -66,9 +66,9 @@ Portfolio
 Resume
                 </Bdiv>
               </Link>
-              <Link to="/aboutme">
+              <Link to="/moviesearch">
                 <Bdiv>
-About Me
+Movie Search
                 </Bdiv>
               </Link>
               <Link to="/projects">

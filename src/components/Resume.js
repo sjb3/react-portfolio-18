@@ -45,15 +45,15 @@ Hacker
 
             <Experiences
               startYear={2016}
-              endYear="current"
+              endYear={2017}
               jobTitle="Open source Contributor"
               jobLocation="heyduwamish.org"
               jobDescription="Portrays the history of Duwamish river and proper over time and the environmental effects due to city development, and the users can log in and report and/or share the images "
             />
 
             <Experiences
-              startYear={2017}
-              endYear={2017}
+              startYear={2016}
+              endYear={2016}
               jobTitle="Teaching Assistant"
               jobLocation="CodeFellows"
               jobDescription="Help students learn javaScript, HTML5 and CSS3"
