@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const H2 = styled.div`
-  font-size: 2em;
+  font-size: 3em;
   &:hover {
     color: grey;
     font-size: 3em;
