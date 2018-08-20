@@ -92,7 +92,7 @@ Hacker
             <hr style={{ borderTop: '1px solid brown' }} />
             <Education
               startYear={2018}
-              endYear="progress"
+              endYear={2019}
               schoolName="North Seattle College | Seattle, WA"
               schoolDescription="Bachelor’s of Sciences,
               Application Development"

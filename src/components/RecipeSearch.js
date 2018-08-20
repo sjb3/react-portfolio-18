@@ -4,7 +4,7 @@ import Recipes from './Recipes';
 
 import { H2 } from '../styled/App.style';
 
-const API_KEY = 'bbb4a5c7f1aaa7e665e2bc11422b1ef6'
+
 
 class RecipeSearch extends Component {
   state = {
@@ -30,7 +30,7 @@ class RecipeSearch extends Component {
           paddingBottom: '2rem',
     width: '400px', marginRight: 'auto', marginLeft: 'auto', border: '1px #000',
   }}>
-Recipe Search
+Recipe Finder
           </H2>
         </header>
         <Form getRecipe={this.getRecipe}/>
