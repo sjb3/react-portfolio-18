@@ -75,7 +75,7 @@ class Projects extends Component {
       return (
         <div>
           <h1>
-            This is nodeJS
+            This is nodeJS: coming soon
           </h1>
         </div>
       );
@@ -109,9 +109,34 @@ class Projects extends Component {
         </Card>
       );
     } return (
-      <h1>
-Capstron
-      </h1>
+      <Card shadow={5} style={{ midWidth: '450', margin: 'auto' }}>
+        <CardTitle style={{
+          // fontFamily: 'Cute Font',
+          fontStyle: 'italic',
+          color: 'white',
+          height: '176px',
+          background:
+        'url(https://media.giphy.com/media/xUA7aPMdVzwSKsHNW8/giphy.gif) center / cover',
+        }}
+        >
+        Concert Finder
+        </CardTitle>
+        <CardText>
+        Building Web app for concert finder\n
+        Concert Finder App, adopting Goldfrappe's image theme:
+        Songkick, MapBox, Leaflet API's are used for dynamic display
+        </CardText>
+        <CardActions border>
+          <Button colored>
+            <a href="https://github.com/BbDgtl/finalProject-301n1">
+          gitHub +
+          </a>
+          </Button>
+        </CardActions>
+        <CardMenu style={{ color: 'red' }}>
+          <IconButton name="share" />
+        </CardMenu>
+      </Card>
 
 
     );

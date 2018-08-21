@@ -12,7 +12,7 @@ export default props => (
       <Textfield
         name="recipeName"
         onChange={() => {}}
-        label="Text..."
+        label="Recipe search..."
         floatingLabel
         style={{ width: '200px' }}
       />
