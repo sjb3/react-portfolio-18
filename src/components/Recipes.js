@@ -1,7 +1,7 @@
 import React from 'react';
-import {
-  Button,
-} from 'react-mdl';
+// import {
+//   Button,
+// } from 'react-mdl';
 import { Link } from 'react-router-dom';
 
 export default props => (
@@ -9,7 +9,7 @@ export default props => (
     <div className="row">
       {props.recipes.map(recipe => (
         <div key={recipe.title} className="col-md-4" style={{ marginBottom: '2rem' }}>
-          <div className="recipes__box">
+          <div className="recipes__box" style={{ border: '0.5px solid grey' }}>
             <img
               className="recipe__box-img"
               width="100px"
@@ -17,7 +17,7 @@ export default props => (
               alt={recipe.title}
             />
             <div className="recipe__text">
-              <h5 className="recipe__title">
+              <h5 className="recipe__title" style={{ fontStyle: 'italic' }}>
                 {recipe.title.length < 20 ? `${recipe.title}`
                   : `${recipe.title.substring(0, 25)}... `}
               </h5>
