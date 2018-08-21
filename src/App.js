@@ -91,9 +91,10 @@ Contacts
 
           <footer className="app-footer">
             <hr />
-            <a style={{ fontSize: '1em', color: 'black', fontStyle: 'italic' }} href="https://tleunen.github.io/react-mdl/">
-            powered by Material Design Lite
-            </a>
+
+            <p style={{ fontSize: '1em', color: 'black', fontStyle: 'italic' }}>
+powered by Material Design Lite
+            </p>
           </footer>
         </Layout>
 
