@@ -1,13 +1,14 @@
 import styled from 'styled-components';
 
 export const H2 = styled.div`
+  font-family: 'Lobster', cursive;
   font-size: 3em;
   font-style: italic;
-  &:hover {
+  /* &:hover {
     color: grey;
     font-size: 3em;
     color: white;
-  }
+  } */
 `;
 
 export const Adiv = styled.div`
